@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="left-up" width="90" height="106" tilewidth="128" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="9">
+ <properties>
+  <property name="clipHeight" value="256"/>
+  <property name="clipWidth" value="256"/>
+  <property name="id" value="004"/>
+  <property name="name" value="洛阳城"/>
+ </properties>
+ <tileset firstgid="1" source="../003虎牢关/未标题-2.tsx"/>
+ <imagelayer id="2" name="背景层" locked="1">
+  <image source="scence02_luoyangcity.jpg" width="11520" height="6656"/>
+  <properties>
+   <property name="type" value="background"/>
+  </properties>
+ </imagelayer>
+ <layer id="1" name="碰撞层" width="90" height="106" opacity="0.7">
+  <properties>
+   <property name="type" value="collision"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlUGO5TAIRLP49z/zaHaRZaCAApwZI1n6nQSqeMbu3/M8v7vuuuuuu+4y1jtOqvWlZfW7iyjXbK3TFupf65vFJhpWrRMYI16s/rwM2JytOIGv5aezxzUPqc32wGaKeGJEJWdJq9onaxanOFfeHUh8yes7OmeDGf+i1y977/KivZu475hxgk9Lo5Jz5z5Mcq5m/CXWlZpRT5rXk1l3c65ibOVnPDHipP8jrHvhlH7WOMEX6/7N3NfVMe0pyhi9M05hPeknw/iXrNMZk16yjKPzPDXXE16YjH+JmpXhOXOV+sz7IlO3K77K+Wv3xwmMH+E3cl94tSZYnzLLyLe7916djn6lu22aMcL6/ffud0Tv1J61WgxNlJvH19c4a/O2q8nSlfLQ+BpnqYZWM6KN5HiCxTm6D1nO0sxnWe++0TQtjwzO6zeeOaw4R9m7gH2m2Yy9e17RW+Y8TnGO5K/vvX1k+svUYHPezR2LMetsVnFCgl1Hq5vxE/WeYV01i5G6O7ZS7ayXqN8IK+aZYHl+18qER6eSNWuvvP0xNDo8TK+uPqMxzSfbs7f/yzje9/obYdLFeZoRi/PaP8omu7dITPNhcrb6YnNAY5pNlqvGWOsvwkPTs2KaVYbxu4dIj0hEuUr6Oz+axxOW1ZfUq5d1JrTZWJ9P82Rw1vqwompf0FmYXs/yG+3Nu18ereiZmWb59hnxj/TEii8z3nllsOngHM07hTMrdvVRTS33st73Zj1D8hnepxlrfqP9SLlRzms9L+tptprX6OysbHY1kRpSrtfXNFfLL4Oz1DNaB5lnVNeqcwprNLzfe0LyG+EeZWLle+pnQupZ8rv7Ha2PznuGsZaPfBPhLu3l2pcn3xtdZxvRZPhCtNb3VpzMOaLJ8OXRQbkxOFueWDOFalX4yczy6ocR1XMs6WjfMb1FfFbFSZzZ3jyalYzfGpX+o5yz3pjsWPVYfazPGb13Mq7eO493TW/3LutvivH67Hnyvex0WPvYzZmhsXvHjBM5W76YHq1zyuB96jzvalXdm7vnu98Zje4eMrUsf17vEk+khkejgu9a25OD1LPu08g+eJl58irneOcJzdPeSz6RXtj9Sf60d8w7GdGN1n7v4e6d1IvGPepF05dymHfGWjeSF9WyOEf9aXeNd1ZZc6x58+R69a3lqcPS9YZ1Hrw5aA00JjizNFEtywejFpKL3B0Zb2s+qpsNqw6iJd15ES9Iv4yzvNuv6nn2+It+49GqYi3lnsQZXR1a3ppZzY7o5OzR03KlvyNaXdHJ2Kst5SDPT+GL+sn4Yp5pa249dSeiepaz59pi/QXGiK9qfxnWXsb/M2ePl/U7b+4XOHftQUTrhBmxYoKzlePRy+xLdXj4Tc3KaefMGxGfVb1o+RWMT5tj1vns9Ir6OZ2zlF/t1ev7eXpYasGYC+tdVWRmuDNYZ9C6UyrjdMZ/g3XfSX939fsvM9Z66e67QotxRhiMJc2Jc4zuvacOo49KzlHfmb1g7OdU7wwmlXto6WTzsx67es/oMTWqPJ7GOarJrMnwI9Vl1coyzvTGrHXXXXfVrz+E/Egl
+  </data>
+ </layer>
+ <layer id="3" name="阴影层" width="90" height="106" opacity="0.7">
+  <properties>
+   <property name="type" value="shadow"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztWNGO5DAI6/z/T5/m4XSjXELA2CRNa2m1s9NgwCGE7nW9eKHBp/l5oUGr85O1Vub/6szNf8Tx6pzLv6ffq/NYlxU6n6x5hc6zdT2702DlmtX5uub2n+bzqTr/YoXOlu2JYPbK03tAFqz76Kn6evJm3vlP1NmrG3u2epLWnhnWuxb1rVrPAqueRtqp3xGinDvozHhX8MzJ7Dwj3Kvmk54mXjtUZwU8fqpi6QHReaZxVR3P4vLGnfHTfm/ZWLYzP7tobMXmiTvD/6shElfU12qNK+JDedg2Co2zZ5sZa8Y+YrOijlGup+jMQoarUmfUNhM3C6y+o9K5/R6JIxMzA+z9YsSO2lZq3O5/NdQ6I3aKOJH9YIOlc48v4lMZoycudZ2jOYyeR3Ou0vmXp8epBnomre8Rn7O1qP2Iq1Lj1t8qnT3rUA7L5k46M/pGdo0XPb7VfaNdY9mM1kX8zmLy8Hj9jjiUQHpEpO69fmfcHh4Uvb7de5ZB9Az3/mb5Rvbvjjp71qD1i3B7fPRqgBFHjzuDjM4sZPZRVQPKWqryO4sj2+sVcSKcmfOpAEMjtc5/fUTXq2OKgnmfrc6p4nyh2K2njvijceyk8Req2YUJ9F4+DZ/m84ocT9f4i1FeFfk+rY5Hz9V5n6ZxLw/F/J+Z4U9AJpfofijW3wWsGdv7bLYWnZV33w/m/Mfg6OlrcZ9U8zMgubY2aJ/YSeM2n/a7DF/LGTnnbc16e8yuYP5/oGeP6NyztZ7fBSytZzpfF1+bu92DM50j7yfsXpTBThp/4annUb1aM0BVnlYv3w2znjG6n2azljJ3K55dMesbnp/LsFXAmv9YPtn759XS6h8WrwLWPcK43xnzQcZXROeV6PUVxL6qH3l0rkaFz910jnKx41FjF529/mexenNZWWdVfhCdPTNARDfm+fIi29+j61F/UR/ReNR6I7xZnRF/TB9P0Nl6NuJDz9sslhX9IwIkpnbtrF8r64qltXpfGHtv5ceO36ttpvcokOWf5baDzlFOBbJ32oo7iKlxj1MBlN+KDenRaO2xdVbh0/yO2FnxKXUexbCzzhlE7hcPV0RnlsY9rt3AqtHftR7OlptxN9xd5whXdF8snijurPMqZOLaMads7anwRJ0V53FHLVZDofGr8/9g1vPOd9VqjGYu9nvRC/57BDpP7rI/aBye/BnvxBEfo2crUfUuFfWDavwEnVGtR3+zzsqpOkdrr/cZ3TuVnpX16LFn1LW3jqM2GVT1V6//zB2X6RXq3sDww4gRiYGlsRrV/ryxoHaZfVLCe/fsjkg/jvIysEMdV4HRjxCfFX1/B97Iec3crRafCir+zEwSXZ/V+a51/MvvyUE1K0bPhQJVvR6Z3yKcr87//ERz9vJ59y7r8w4Y5VsxF3h1PgGWLhUzAXtO3xXM/pflaOM4Refsu4Mylh1iYuGUPF68ePECwR9fbweV
+  </data>
+ </layer>
+ <objectgroup id="4" name="出生点">
+  <properties>
+   <property name="type" value="birth"/>
+  </properties>
+  <object id="1" x="5696" y="3493.33">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="传送点">
+  <properties>
+   <property name="type" value="transfer"/>
+  </properties>
+  <object id="2" name="到虎牢关" x="10690" y="5914">
+   <point/>
+  </object>
+  <object id="3" name="虎牢关到洛阳城" x="10560" y="5852">
+   <properties>
+    <property name="type" value="safe"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="安全区">
+  <properties>
+   <property name="type" value="safe"/>
+  </properties>
+  <object id="5" x="4864" y="3008" width="1792" height="1024"/>
+ </objectgroup>
+ <objectgroup id="7" name="NPC">
+  <properties>
+   <property name="tpye" value="npc"/>
+  </properties>
+  <object id="6" x="5693.94" y="3296.97">
+   <properties>
+    <property name="type" value="monster"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="monster">
+  <object id="7" x="10240" y="4352" width="640" height="384"/>
+  <object id="8" x="6912" y="6080" width="640" height="384"/>
+ </objectgroup>
+</map>

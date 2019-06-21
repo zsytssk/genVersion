@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="left-up" width="57" height="112" tilewidth="128" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="12">
+ <properties>
+  <property name="clipHeight" value="256"/>
+  <property name="clipWidth" value="256"/>
+  <property name="id" value="002"/>
+  <property name="name" value="盟军大营"/>
+ </properties>
+ <tileset firstgid="1" source="未标题-2.tsx"/>
+ <imagelayer id="2" name="背景层" locked="1">
+  <image source="scence03_military camp02.jpg" width="7168" height="7168"/>
+  <properties>
+   <property name="type" value="background"/>
+  </properties>
+ </imagelayer>
+ <layer id="1" name="碰撞层" width="57" height="112" opacity="0.6">
+  <properties>
+   <property name="type" value="collision"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztVstuBDEI20P//5t7WmkUBWKMIcm0lnroTgCbV/Lz+Xx+/sDfm1Gh8bQcqjmc2Cc3aFTY/2vM+36zxgyevG7XaMXv0lgxq6Pvjrt7pVGJXfcK0iuVcbNxEB+z7x35VfQmanurxoh9l8aRwywm4wvR6f2m1Kp8D1iaLN7du42NFa0ZMwNdufBiR2Yvo7Fbq0ofu8s6EOHrzSajsQsRnrM9s3MHoUD6M2K7o04roDsUsUdturDaH+ydcKPGiK8TodD39HMqbrzTGby9jl9ENZ5wH7JxvTvk+b8iVgbqOUHeCTvfZtn4K1/dO0d1FyA+Z9+qobzTGb/VGpHYLJeMRpXuSOzM3ZepI/IdjW/9ZtkgYDXOcovE8WJb31acUSjqiOj04nnnV1xRMBojsZj8Zfmt/Iy/ZaHgp/LTqRG1W/lh8zX6zCLbo4gvliu7N1WI7N5s/0e4KPWudq+3r6MxsnwyYHKcnQckDgurXis+mT2E9skYhwFib/H3dhCzT9AYESD7cVWnlQ0S27LJ3lPofmRqhJy14s/sM/rYnlDoRPRn+xPpS89HNl6WQzSeMgYad7VzqvQp463iK+dPuXtZzDhYuyyrMcONhcXd0tVVR1WfetwRjcz+rjiP+OjUyHCLAuXM6PM4IXwVvTn68ThHa4d8937zeEQRrUnmrIJHFJm6KHKxsssiykOlMZK/j3EeQSbPM3vEL5NHFmzfr/SsfFf0oseTiZetW5fOTIzoLO3S6fUXaov43a3zywnhPtogO+lUneh5dC/dqpPZTdUa0fORc9GzlRor91X0fKW+3RpHLiqNlfPL+mT0WbGq91RmJ0RqZ323bJU6s74i9bN0rPRnofCD8GRn9xSNTz/sXyUq+v4EjVWz/fS3u4be3Cv97+5Ri0+Fz536nnyq/HbdDwiXKr876zdyqfRt1a8LM43qO3M3vPfFCfwUOGVm1PDux7dofOJf4x1Y8d6lseqNvPqO6FPloeL9iMRC4im4dffOSRq73lvVQN/qnTGrd8Pb8rrrXkI03nZfjkBqePs7AeF/k0Zkv6A13K2R4RutoaVzNssVuanirDjvcYogkjs0v5F+jcxEpMasbYVGBJk8RHVGuSpnq0snOwtqVGpV1EOBDo1v//sFu/oeyQ==
+  </data>
+ </layer>
+ <layer id="3" name="阴影层" width="57" height="112" opacity="0.8">
+  <properties>
+   <property name="type" value="shadow"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmAuOwzAIRNv7X3oVrSpFFuY7YOxkpGq7qY15AYOTz+eVRd/J5ySdxvMqpsw875Br2r3s2fPZNcLjxy6MVl804zW1m7peyWiJkcbml/mNmoeWhc1jl7K/ojdn3jvpkyUpD702uXyoZLTuEavNaC1CqIIRNZaaZ/Vn9jtlN1Jno+Mtvtx/1zB61s+ag8zzrPxBqbLveOKAXj9bK/mqJPUHzVjN3JWifJmd3bT2uvFJjNo6f5/bSRZGi81dtWscLeq2z35C9dmq5yirkH51ZEQ/43HPOKtUxbhK0nOl1yZnp5KXi1uEk4tfZc5q8hJZNzJrkBQjaU00J1qzc6TV79U1kdOsXnrOlLv0u2it7MQZ5Rtze2a7i9CMo80Oytp/nRg90vofuX/Zcyw2tf3TY9syPjNvLPHkxkbqQgUjijPqQ9Q+orZU1CFrnt+/S3lmsYtkpfqzxw903q9mnPF4GaUzQnT/RHs74pwm7WMvYwbfbJzGrnZNrTL5qPFRee6ZZ91I/0XIekbIWoObhxDnwyq++3yUJEa0XW5sZuxmtbxCyDPAaE8aJ9kY7SFqEpIRZSPiX1c+yl6030ZzYPY/QkhGxNpozeqWted663klo3ddVF/KYozGCelDRo25/9X6oLVt3ctRcfsk6+yyghFx9snaN1l7wGMb0VuiPlTIw8jN6cj40xMYL2k5K/pPpp7AqNHpjC9frVBnaupaB75LEV9Glo58P3nP3d3j55HEsTvfJSlOu/Nd6hKnDj5k6YT97lWUe5f7FonxjozedwBdRb2jiLzn6CgE491WR6Hfp3XkPOUMeRf1XugkxtUsleufwrg6ZpTQ+yLrnkVtUN+jtlDKzDPv+ZGzu7Mkht0ZNbF/GfvrtPMKpacxUtdP1pMYn5DLr/7VNcbIdxQnMz5hr2ayrbh343rZPnRgrFhr5Ky6r1WieE5jXK0/qqoDkw==
+  </data>
+ </layer>
+ <objectgroup id="4" name="出生点">
+  <properties>
+   <property name="type" value="birth"/>
+  </properties>
+  <object id="1" x="5696.97" y="3424.61">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="monster">
+  <properties>
+   <property name="type" value="monster"/>
+  </properties>
+  <object id="4" x="4608" y="6528" width="640" height="320"/>
+ </objectgroup>
+ <objectgroup id="7" name="传送点">
+  <properties>
+   <property name="type" value="transfer"/>
+  </properties>
+  <object id="6" name="通往桃花村" x="7109.33" y="5536">
+   <point/>
+  </object>
+  <object id="7" name="桃花村到盟军大营" x="6972" y="5470.67">
+   <point/>
+  </object>
+  <object id="8" name="通往虎牢关" x="194.667" y="98.6667">
+   <point/>
+  </object>
+  <object id="9" name="虎牢关到盟军大营" x="324" y="165.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="NPC">
+  <properties>
+   <property name="type" value="npc"/>
+  </properties>
+  <object id="11" x="4548.48" y="3666.67">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="安全区">
+  <properties>
+   <property name="type" value="safe"/>
+  </properties>
+  <object id="2" x="5376" y="3264" width="640" height="384"/>
+ </objectgroup>
+</map>

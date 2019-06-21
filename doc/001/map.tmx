@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="62" height="88" tilewidth="128" tileheight="64" infinite="0" nextlayerid="14" nextobjectid="34">
+ <properties>
+  <property name="clipHeight" value="256"/>
+  <property name="clipWidth" value="256"/>
+  <property name="id" value="001"/>
+  <property name="name" value="桃花村"/>
+ </properties>
+ <tileset firstgid="1" name="未标题-2" tilewidth="128" tileheight="64" tilecount="0" columns="2">
+  <image source="../未标题-2.jpg" width="256" height="128"/>
+ </tileset>
+ <imagelayer id="2" name="桃花村">
+  <image source="peach_village02.jpg" width="7936" height="5632"/>
+  <properties>
+   <property name="type" value="background"/>
+  </properties>
+ </imagelayer>
+ <objectgroup id="5" name="传送点">
+  <properties>
+   <property name="type" value="transfer"/>
+  </properties>
+  <object id="1" name="主城传送" x="7746" y="162">
+   <point/>
+  </object>
+  <object id="27" name="传送点" x="7488" y="418">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="NPC">
+  <properties>
+   <property name="type" value="npc"/>
+  </properties>
+  <object id="3" x="4684" y="4840">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Monster">
+  <properties>
+   <property name="type" value="monster"/>
+  </properties>
+  <object id="4" x="4096" y="3264" width="1028" height="512"/>
+  <object id="6" x="4992" y="4032" width="767.223" height="500.152"/>
+ </objectgroup>
+ <objectgroup id="10" name="安全区" locked="1">
+  <properties>
+   <property name="type" value="safe"/>
+  </properties>
+  <object id="17" x="40" y="28" width="7888" height="5572"/>
+ </objectgroup>
+ <objectgroup id="13" name="出生点">
+  <properties>
+   <property name="type" value="birth"/>
+  </properties>
+  <object id="20" x="5428" y="5148">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="碰撞层" width="62" height="88" opacity="0.56">
+  <properties>
+   <property name="type" value="collision"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztl9tuxCAMRDf//9PVPqxUIbDHeGwDYaRIbQqeOVzT5/P5PIc+kqqzXe7csajOcSK3Rdk5ssa3gjvbb2a+2VkyvDLEylY5r0xZc53C/VM0746aYbvce3IjnDtyaTppv1r0Vu6v3sr91eW+3KdI4tK4dx0L7Z6uursz6jO5GXmRPeXZf57/MyLnA/WfvWc93B5ptWZyWTJWc6NzyM75Fu7ocZzl3uG53GOey/0e7hOZEa7LfQ7z5X4XcwQ3Q5nclswR42jxsHIhf/dmYgrl83Cz8jDVY2v9R3m0zJ480dz//Ub+ozyjOhHcEdLmrn3X9vHsZ8nXw631keYZ8R218c5R9N6WvCxrmp0vsq7mNcPNyhhVE/Gynt8ZZ9Gs0L2KsOzCjZxxu3Fbz+1Rm1PXOSIPQxV3xF2ym6IyS2u+WpHMvbV8MvOvNnreZSrDbzXubC/tuy8rR4aHxpR5j2XvZ/T7PlLtmcr283y79TKyMvV8I+ThZudAM3nrIx4Z3BLzKtxeP2ueDG6pj9e/VwNhztpbM22R/siZKHFnfye2YnzHoffl03lfIeQMQGqM6knzWznfXm7L/Vy9rv/Lc+ZH3FWrrH9pXKT2s/fjytzoXeXxW4G7fT9qx5zrCu6e92gM2Ht6FW5tj1vOAK9ftFB/1r1VyW25h9t2o/do/lnmzD2GjoV17Bjc7BptO0sNlu9Mf69/uwfQGlnysGt9refcStza2cvkzpIlN+NhZGVoF+6oMVyJfdRuVMc6DhXMCH/bpvdz73eNvZpXyom078316dwS8+ncj9C2fR/F/Acf+ghm
+  </data>
+ </layer>
+ <layer id="4" name="阴影层" width="62" height="88" opacity="0.47">
+  <properties>
+   <property name="type" value="shadow"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmI1qxSAMRjv6/u88hBU6MX/6RU3sgcu966zmVKvG68rL/fc5jfs61/1jHrfhMyOGWbTam+m96t22tOsR38yx1NuXs8c/AkTMUb2zE7FftHA+p3pn5Wd1AB+unNq/J3tTn8xw3pndJW/UWna/vmeskVI7rf6tvXtj1OQrq/YJlK/FW5Nnt66tOId4kLzrMi0k79Y1ydP7GUjvt2aO03pr76XqQY4NhLcU4yi7e9dxIvm8MYx6R81VP+//fhqfyGcTvd7Rz2R6vKM7F6h3+FRvjujOhZ48+1TvDNT55ui7a8k1V+WghXoOH40B4Y3MZSioeXy1t7ZtqpzFG3G2hnxeVDnub6q+GumMycpIX3H9TjlovetyXB5i9R4do1ysnHerPel+VM7NxWaFipkrz93fim1Xb0t9PWN/R++6LpT3u16P8yVLHFI9Pc9RUx7pPRJHXT6TtyX+1d5IonijsXo/3x77v5neO5HRWTNGsjlr+bzb3qj9l1d9T51WKO+RdYQCXd+7Tup/FFT+ifZG1GfNQzm4vNujnxHeo/v/gtTfo/Vbc2lNXUjv92/LeOLQ5P899Xn3d6tNa4zUdcTYGYGby9+/LW1Kc+zoWEcg7Vl64ozo3Zp7tbF6rM9eaPYsGh+PfY4n1Di3eCPX51lo9ub1HNcqg2DmeBnxRse4i3cdi9T3KHbz5q5Fw3rmkMG5YPF+fDOcyWi9s/Tzg9X5FG/UnmQ3rGvYCd4FKifNQI93Bv+etTuD+6nehVO9tfSexURHOoey+kd6bmjvaJw43h88nCM8Oy/v3cdO1DH+C+srCTs=
+  </data>
+ </layer>
+</map>

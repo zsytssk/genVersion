@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="128" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="12">
+ <properties>
+  <property name="clipHeight" value="256"/>
+  <property name="clipWidth" value="256"/>
+  <property name="id" value="003"/>
+  <property name="name" value="虎牢关"/>
+ </properties>
+ <tileset firstgid="1" source="未标题-2.tsx"/>
+ <tileset firstgid="5" source="../002盟军大营/未标题-2.tsx"/>
+ <imagelayer id="3" name="背景层" locked="1">
+  <image source="scence04_hulaoguan.jpg" width="6400" height="3072"/>
+  <properties>
+   <property name="type" value="background"/>
+  </properties>
+ </imagelayer>
+ <layer id="1" name="碰撞层" width="50" height="50" opacity="0.7">
+  <properties>
+   <property name="type" value="collision"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmssOxCAIRVl04f9/8axIjPEBeEGceBJXtZZTEZ3HR0RfYCuOY0dQqvY8znmU55HKg/k3Dy+HCA+0Q0vU+vB0oMU1BFKHGZJ+nh4IB0bqisbiUEgP3+PhcaKunPCwvHda3If20M4FygnpsVoPRD45xeNGePT6IonKqxquZUi0HnX/USwzD3T8vbhGtDW6rjtSl3YsNDseGhev+Ntn9RjVNotLlIe0plj2tmgPybkBvUdbaXMA5eG1v42QevTi0p45IpHGJXE46aKJL7PLbqztnJ0C8b6ja1WP55Ejfub2eWC8a0+Ua8Yaymg+bz2PXDyPeCTfw93iMuJ55MK6l2dj50xy27kE6YF018SeNa+sDjd7tL/xrYhcM1qP2idT28mr2Zx5/99C0n6CDQ9h
+  </data>
+ </layer>
+ <layer id="4" name="阴影层" width="50" height="50" opacity="0.7">
+  <properties>
+   <property name="type" value="shadow"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmVEOwyAIQOmH979ys6QmhChQSgVcX2KWTOp4k9bpAHw4rlaZBrxHu14zujbUDpjn2GOAiYnkmDScd0dyjYLmNWoYri8KjQOeF8nROzdaC7M4jYN2nrzRfAb3/a52mI3LPWtm10bOg+SB32tMjLdDGzTuWotHVD15eYziV9bSEw8pPuJe5voB8ntY0Lh7OmjWKgs9j9n4nh70OeiJ5IFjPJ6vb3to7yuLB84/gweN11z79jyM8hrVlnZt4cYHIcYDjYd0nTT+CqgHddGsrRmg9XHHA4S+SLCL9NsThL5IMv7msLKDQ2cXj3+i+nxp9tHZwXv3ylSfB80+JSuzc59q7OxRkc8jF7t4/Pg8coE9sqyB+L+SO0hnEaux1kemfe6TOs+Qf+dJLUhndVWQPKz33Wo4j0p7w2xnubtyAlqLAyY=
+  </data>
+ </layer>
+ <objectgroup id="5" name="传送点">
+  <properties>
+   <property name="type" value="transfer"/>
+  </properties>
+  <object id="1" name="传送到盟军大营" x="6220" y="2132">
+   <point/>
+  </object>
+  <object id="2" name="盟军大营到虎牢关" x="6076" y="2136">
+   <properties>
+    <property name="type" value="npc"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="10" name="到洛阳城" x="196" y="96">
+   <point/>
+  </object>
+  <object id="11" name="洛阳城到虎牢关" x="320" y="152">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="NPC">
+  <properties>
+   <property name="type" value="npc"/>
+  </properties>
+  <object id="3" x="5312" y="740">
+   <properties>
+    <property name="type" value="monster"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="monster">
+  <properties>
+   <property name="type" value="monster"/>
+  </properties>
+  <object id="4" x="2048" y="2176" width="512" height="320"/>
+  <object id="5" x="2816" y="2560" width="512" height="320"/>
+  <object id="6" x="2048" y="2624" width="512" height="320"/>
+  <object id="7" x="3712" y="1472" width="512" height="320"/>
+  <object id="9" x="4224" y="896" width="512" height="384"/>
+ </objectgroup>
+</map>

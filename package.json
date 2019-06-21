@@ -1,0 +1,26 @@
+{
+    "name": "gen_map",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "webpack-dev": "webpack --mode development",
+        "webpack-prod": "webpack --mode production",
+        "release": "ts-node  --files ./script/copy",
+        "genVersion": "ts-node  --files ./script/main genVersion"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "md5-file": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^12.0.4",
+        "ts-node": "^8.2.0",
+        "typescript": "^3.5.1",
+        "ts-loader": "^6.0.2",
+        "webpack": "^4.32.2",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.5.1",
+        "webpack-node-externals": "^1.7.2"
+    }
+}
