@@ -3,7 +3,8 @@
     "bin": "bin",
     "laya_assets": "laya/assets",
     "laya_pages": "laya/pages",
-    "bin_js": "bin/js/bundle.js",
-    "bin_res": "bin/res",
+    "bin_js": "bin/main.js",
+    "bin_res": "bin",
+    "version_pos": "bin",
     "include": ["src", "test", "libs", "laya/pages", "laya/assets", "bin/libs"]
 }

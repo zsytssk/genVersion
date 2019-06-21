@@ -8,6 +8,7 @@ export let laya_assets;
 export let include;
 export let laya_pages;
 export let bin_res;
+export let version_pos;
 
 export async function intConfig(config_path: string) {
     const config_raw = await readFile(config_path);
@@ -20,4 +21,5 @@ export async function intConfig(config_path: string) {
     laya_pages = config.laya_pages;
     include = config.include;
     bin = config.bin;
+    version_pos = config.version_pos;
 }

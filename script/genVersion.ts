@@ -1,10 +1,10 @@
 import md5File from 'md5-file';
 import * as path from 'path';
-import { project_folder, bin } from './const';
+import { bin, project_folder, version_pos } from './const';
+import { normalize } from './ls/pathUtil';
 import { write } from './ls/write';
 import { findBinFiles } from './utils/listBinFiles';
 import { stringify } from './utils/util';
-import { normalize } from './ls/pathUtil';
 
 export async function genVersion() {
     const result = {} as { [key: string]: string };
@@ -15,7 +15,7 @@ export async function genVersion() {
         const key = normalize(path.relative(bin, item));
         result[key] = md5;
     }
-    const file_path = path.resolve(project_folder, 'bin/version.json');
+    const file_path = path.resolve(project_folder, version_pos, 'version.json');
     write(file_path, stringify(result));
 }
 

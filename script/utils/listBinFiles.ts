@@ -36,7 +36,7 @@ export async function findOriAllFiles() {
     const files_str = (await execArr(`git ls-tree --full-tree -r HEAD`, {
         path: project_folder,
     })) as string;
-    let list = files_str.split('\n');
+    const list = files_str.split('\n');
     list.pop();
     const result: string[] = [];
     for (const item of list) {
