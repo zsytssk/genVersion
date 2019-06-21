@@ -4,7 +4,7 @@ import { lstatFile } from './asyncUtil';
 const split_sign = '\\';
 export function normalize(file_path: string) {
     file_path = path.normalize(file_path);
-    return file_path.replace(/\\$/, '');
+    return file_path.replace(/\\$/, '').replace('\\', '/');
 }
 
 export function calcClosestDepth(path_str: string, parent_path: string): number {
